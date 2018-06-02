@@ -1,9 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito');
 
 
-.chat-box {
-    display: flex;
-}
 h1{
     font-family: arial;
     text-align: center;
@@ -29,7 +26,12 @@ button{
     cursor: pointer;
 }
 #output{
-    background-color: #eee;
+    background-color:#eee;
     display: block;
-    width: 100%;
+    height: 50%;
+    padding: 5px;
+}
+p{
+    font-size: 15px;
+    font-family: 'Nunito';
 }
