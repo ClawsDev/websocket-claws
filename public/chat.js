@@ -18,7 +18,7 @@ const message = document.getElementById('message')
 btn.addEventListener('click', function(){
     console.log(btn)
     socket.emit('chat', {
-        messsage: message.value,
+        message: message.value,
         handle: handle.value
     })
 })
